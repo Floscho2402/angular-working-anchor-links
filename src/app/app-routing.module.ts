@@ -12,6 +12,10 @@ const routes: Routes = [
     pathMatch: 'full',
     redirectTo: 'test'
   },
+  {
+    path: '**',
+    component: TestComponent
+  },
 ];
 
 @NgModule({
